@@ -2,6 +2,8 @@
 My primitive library for machine learning algorithms
 This project include metric classification and SVM algorithm for two classes of colour dots. 
 
+run.py - include matplotlib figure and initiate main script
+
 top_class.py - a main metaclass, that includes coordinates and colour of dots and inherit other classes
 
 init_dots.py - creates random normalvariate dots
