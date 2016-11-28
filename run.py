@@ -17,7 +17,7 @@ RedDots = NormVariateDots(fig, 15, 65, 65, 20, "red")
 
 #                     sizeKernel\place of plot\func kernel
 DoLearn = RangeAlgorithm(fig, 3, 122)
-DoSVM = SvmAlgorithm(fig, 3, 121, linear_kernel)
+DoSVM = SvmAlgorithm(fig, 3, 121, polynom_kernel)
 
 Draws = [BlueDots, RedDots, DoSVM]
 
