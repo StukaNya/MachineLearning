@@ -17,6 +17,9 @@ class Top(object, metaclass=MetaClass):
     def dots_setup(self, dot):
         self.ExtDots.append(dot)
 
+    def dots_pop(self, i):
+        return self.ExtDots.pop(i)
+
     def dots_clear(self):
         self.ExtDots.clear()
 

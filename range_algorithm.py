@@ -39,6 +39,15 @@ class RangeAlgorithm(Top):
     def dots_get(cls):
         return cls.ExtDots
 
+    def dots_setup(self, dot):
+        super().dots_setup(dot)
+        self.ND += 1
+
+    def dots_pop(self, i):
+        self.ND -= 1
+        return super().dots_pop(i)
+
+
     def dots_clear(self):
         super().dots_clear()
 
